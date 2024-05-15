@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img id="logo" src="./assets/img/logo.png" width="180" alt="iam_gamer">
+            <div class="search">
+                <span id="search-icon" class="material-symbols-outlined">
+                    search
+                </span>
+                <input type="text" id="search">
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div id="container-slider"></div>
+        <h1>All Games</h1>
+        <span class="divider"></span>
+        <div id="container-cards">
+        </div>
+        <div>
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+        
+    </main>
+    <div id="modal" class="modal">
+        <div id="modal-content">
+            <span class="close">&times;</span>
+            <div id="container-image"></div>
+            <h2 id="modal-title"></h2>
+            <div id="container-info"></div>
+        </div>
+    </div>
+    
+    <footer>
+
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
